@@ -10,8 +10,8 @@ import math
 answer = input("Please enter if you would like to calculate the area of a triangle, " + \
                "circle, or rectangle. Or if you would like to exit: ") #Get the user's choice 
 
-while not(answer.strip().upper() == "TRIANGLE" or "CIRCLE" or "RECTANGLE" or "EXIT"):
-    answer = input("Please enter a valid answer: ")
+while not(answer.strip().upper() == "TRIANGLE" or answer.strip().upper() == "CIRCLE" or answer.strip().upper() == "RECTANGLE" or answer.strip().upper() == "EXIT"):
+    answer = input("Please enter a valid answer: ")                                        #if the user enters an invalid answer, it will loop until they do 
 
 if answer.strip().upper() == "TRIANGLE":
     triangleLength = float(input("Please enter the length of triangle in centimetres: "))           #Have the user enter the triangle length
