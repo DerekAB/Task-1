@@ -40,5 +40,5 @@ if answer.strip().upper() == "CIRCLE":
     print("The area of the circle is " + str(circleArea) + "cm^2.")                     #Calculate the area and perimeter of the circle
     print("The perimeter of the circle is " + str(circlePerimeter) + "cm.")
     
-if answer.strip().upper() == "EXIT":
+if answer.strip().upper() == "EXIT":                    #If the user enters "exit", the program will end
     print("OK, goodbye.")
